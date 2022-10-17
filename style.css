@@ -1,0 +1,195 @@
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Partie principale */
+body {
+	background-image: url(./image/body-bg.jpg);
+	color: #6a6969;
+	width: 1200px;
+	margin: auto;
+	font-family: "Arial", sans-serif;
+}
+
+h1 {
+	text-align: right;
+	color: white;
+}
+
+
+
+/* Header*/
+header {
+	font-family: "Arial", sans-serif;
+	background: #222222;
+	padding: 20px;
+	height: 75px;
+	width: 100%;
+}
+
+header figure a img {
+	width: 80px;
+	float: left;
+	display: inline;
+}
+
+header h1 {
+	line-height: 75px;
+}
+
+/* Navigation */
+nav a {
+	text-decoration: none;
+	color: #6a6969;
+	font-size: 23px;
+	margin: auto;
+	padding-right: 15px;
+}
+
+nav {
+	text-align: center;
+	margin: 30px;
+}
+
+
+/* Login */
+
+aside {
+	border: 3px #9a9a9a solid;
+	padding: 20px;
+}
+
+.aside-index {
+	display: inline;
+	width: 30%;
+	float: right;
+}
+
+form h3 {
+	text-align: center;
+}
+
+form hr {
+	width: 100%;
+	margin: 10px auto;
+}
+
+form label {
+	display: block;
+	text-align: right;
+	margin: 5px auto;
+}
+
+form input[type=text], form input[type=password] {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+form #connexion {
+	margin: 20px auto;
+}
+
+form #connexion input {
+	margin: auto 5px;
+}
+
+form #connexion label {
+	display: inline;
+	font-size: 15px;
+}
+
+form #connexion button {
+	width: 46%;
+	padding: 8px;
+	background: #203152;
+	border: none;
+	color: white;
+	
+}
+
+form a {
+	color: #4b7de0;
+	text-decoration: none;
+}
+
+
+/* Le main */
+
+main p,h2,h3,ul,aside {
+	color: #9a9a9a;
+	margin: 20px;
+}
+
+section {
+	width: 100%;
+}
+
+
+article {
+	border: 2px #9a9a9a solid;
+	border-radius: 15px;
+	display: inline-block;
+	width: 55%;
+	padding: 10px;
+}
+
+main {
+	width: 900px;
+	padding: 20px;
+	margin: auto;
+	background: #222222;
+}
+
+main p img {
+	width: 100%;
+}
+
+main table tr td img {
+	width: 300px;
+}
+
+
+/* Bas de page */
+footer {
+	margin: 15px auto;
+	padding: 20px;
+	display: inline-block;
+	width: 100%;
+	color: #6a6969;
+	font-size: 23px;
+	background: #222222;
+	font-family: "Arial", sans-serif;
+	height: 90px;
+}
+
+footer img  {
+	text-decoration: none;
+	color: #6a6969;
+	float: left;
+	display: inline;
+	width: 90px;
+}
+
+footer p {
+	text-align: right;
+	line-height: 90px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #6a6969;
+}
+
+
+/* Get Password page */
+
+#sign-up {
+	display: flex;
+	flex-direction: row;
+}
+
+#sign-up .inscription {
+	display: block;
+}
